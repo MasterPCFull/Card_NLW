@@ -4,7 +4,7 @@ function changeCard(event) {
     const backgroundImage = isIgnite 
     ? "url(./assets/bg-explorer.svg)"
     : "url(./assets/bg-ignite.svg)"
-    isIgnite = !isIgnite
+    isIgnite = ! isIgnite
     card.style.backgroundImage = backgroundImage
 }
 
